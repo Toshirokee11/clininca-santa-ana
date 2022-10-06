@@ -1,0 +1,66 @@
+*{
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenedorLogin{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../img/fondo-clinica.webp");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.login{
+    width: 360px;
+    height: fit-content;
+    padding: 1.5em;
+    border-radius: 15px;
+    background-color: #02bcc9;
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.login h1{
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+.login form{
+    font-size: 1.5em;
+}
+.login form .form-group {
+    margin-bottom: 1em;
+}
+
+.login form input[type="submit"] {
+    font-size: 1em;
+    margin-top: 1em;
+}
+.login-icono{
+    position: absolute;
+    margin-top: -261.88px;
+}
+.login-icono img{
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid #02bcc9;
+}
+
+.area-imagen{
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.contenedorCita{
+    max-width: 1080px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 3% 0;
+}
+
+label{
+    align-self: center;
+}
